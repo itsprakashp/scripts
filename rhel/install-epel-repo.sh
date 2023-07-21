@@ -1,1 +1,1 @@
-sudo dnf clean all && sudo dnf update && sudo dnf groupinstall "Development Tools" && sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm && sudo dnf update
+sudo dnf clean all && sudo dnf update -y && sudo dnf groupinstall "Development Tools" && sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm && sudo dnf update -y
