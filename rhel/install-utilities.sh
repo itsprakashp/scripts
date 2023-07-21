@@ -1,0 +1,1 @@
+sudo dnf clean all && sudo dnf update -y && sudo dnf install htop neofetch nano -y
